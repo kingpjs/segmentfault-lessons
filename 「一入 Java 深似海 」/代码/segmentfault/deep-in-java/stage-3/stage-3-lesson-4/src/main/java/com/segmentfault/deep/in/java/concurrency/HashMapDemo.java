@@ -9,7 +9,7 @@ public class HashMapDemo {
 
         String strValue = "Hello,World";
 
-        Integer intValue = new Integer(strValue.hashCode());
+        Integer intValue = Integer.valueOf(strValue.hashCode());
 
         Map<Object, Object> map = new HashMap<>();
 
